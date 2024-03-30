@@ -37,7 +37,7 @@ axios.interceptors.response.use(
 // Проверяет разрешен ли путь к файлу
 function isAvailablePath(path) {
     // eslint-disable-next-line no-undef
-    return path.startsWith(`${$paths.file_storage}/`);
+    return path.startsWith(`${$paths.file_storage}`);
 }
 
 // Определяет тип контента
